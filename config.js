@@ -8,5 +8,5 @@ const DATABASE_URL = 'process.env.DATABASE_URL';
 
 module.exports = {
     //ConnectionString: 'postgres://' + PgUser + ':' + PgPassword + '@' + PgHost + ':' + PgPort + '/' + PgDb
-	ConnectionString = DATABASE_URL;
+	ConnectionString: DATABASE_URL
 };
