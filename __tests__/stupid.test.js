@@ -1,3 +1,3 @@
 test('simple and stupid test', () => {
-    expect("YES").toBe("NO");
+    expect("YES").toBe("YES");
 });
